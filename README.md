@@ -1,0 +1,1 @@
+This contains the instructions and example data analyses of the sub-module "Measuring Reefs" of the HIMB Summer Course 2021.
