@@ -295,6 +295,6 @@ summary(res.reefID.lm)
     + Methods (what you did, both in the field and the lab)
     + Results (here’s where your figures and stats outputs will go)
     + Discussion (mention any interesting findings and, if you have time, briefly relate this to any previous literature using a similar approach/asking similar questions)	
-* This exercise will help you see the value of using R Markdown to write papers! 
+* This exercise will help you see the value of using R Markdown to write papers!!! 
 
 
