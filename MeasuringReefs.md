@@ -152,10 +152,10 @@ Measuring reefs:
         saved measurements to the folder you created in My Places
     
       - Frequently save My Places\! (File -\> Save -\> Save My Places)
-    
-      - *Note*: if you need to go back to measurements, right-click on
-        outlines (or their corresponding saved names in My Places) -\>
-        Get Info
+        
+          - *Note*: if you need to go back to measurements, right-click
+            on outlines (or their corresponding saved names in My
+            Places) -\> Get Info
 
 2)  **Planet Explorer**
     
@@ -190,6 +190,9 @@ Measuring reefs:
           - Area coverage = 90-100%
           - Source = tick sources corresponding to “satellite” above
           - *Tip*: do this satellite by satellite for faster searching
+    
+      - Use the lower left hand gear icon (settings) to change the units
+        from km to m
     
       - Use the “measure distance” tool to extract perimeter (hold shift
         for free hand measurement)
