@@ -153,11 +153,11 @@ Measuring reefs:
     + Use the lower left hand gear icon (settings) to change the units from km to m
     + Use the “measure distance” tool to extract perimeter (hold shift for free hand measurement)
     + Manually copy measurements into .csv 
-    + _Note_: there’s no way to save measurements, so double-check each entry for accuracy before moving on
+    + _Note_: you can save measurements (search icon -> "save search" button), but it's a bit clunky so we won't; double-check each entry for accuracy before moving on
 
 ## Part 3: Data merging and analysis
 
-Once all data is collected, erge datasets: 
+Once all data is collected, merge datasets: 
 
 * Check your dataset for any typos, missing values, etc.
 * Check that your dataset is saved in the "data" folder
