@@ -161,6 +161,10 @@ Measuring reefs:
     
       - Draw a rectangular AOI (area of interest) to cover Kane’ohe Bay
     
+      - *Note*: don’t use ‘shift’ to draw a freehand AOI (you wont see
+        imagery availablity if drawn by freehand, for some strange
+        reason)
+    
       - Visually compare the Google Earth placemarks with the Planet
         Explorer AOI to locate your study reefs
     
