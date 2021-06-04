@@ -70,7 +70,8 @@ Measuring reefs:
 
 Data entry:
 
-* Go to https://github.com/HIMB-Summer-Course-2021-Remote-Sensing/MeasuringReefs and click the green "Code" button -> "Download ZIP"; save to your machine 
+* Go to https://github.com/HIMB-Summer-Course-2021-Remote-Sensing/MeasuringReefs and click the green "Code" button -> "Clone" -> copy link
+* Open RStudio -> File -> New Project -> Version Control -> paste link
 * Open the .csv datasheet template (data/MeasuringReefs_template.csv) 
     + Do not add/delete columns since we will combine datasets later
     + Re-save file with your initials appended to the end of the filename (e.g., "MeasuringReefs_EPM.csv")
@@ -152,31 +153,25 @@ Measuring reefs:
     + Manually copy measurements into .csv 
     + _Note_: there’s no way to save measurements, so double-check each entry for accuracy before moving on
 
-## Part 3: Data analysis
+## Part 3: Data merging and analysis
 
-Once all data is collected: 
+Once all data is collected, erge datasets: 
 
 * Check your dataset for any typos, missing values, etc.
-* Save your dataset in the "data" folder
-* Open the .Rmd file 
+* Check that your dataset is saved in the "data" folder
+* In RStudio: stage -> commit -> pull -> push (goes to the Github repo you cloned)
+* Choose one person in the group to merge everyone's dataset in a new master .csv file (e.g., "MeasuringReefs_Master.csv")
+* Once finished, everyone can pull the repo to get the master data file
 
-* Create a new project-specific repository in Github 
-* Link your Github repo with your project directory (folder)
-* Commit/push to the new project-specific repository you created in Github
+Then analyze data: 
 
-If time permits for merging and analysis of group data:
-
-* Send your repo's link to the rest of the group via our "remote-sensing-module" Slack channel
-* Pull (download) everyone else’s datasets
-* Merge others’ datasets with your dataset & save
-* Commit/push revised (merged) dataset to your Github repo
-* Once everyone’s data is merged, create a new R Markdown (.Rmd) file in R Studio
+* In RStudio, open the .Rmd file 
 * Make some basic plots to help you explore any patterns in the data
 * Run some statistical analyses to determine sources of variance, any significant trends, etc. 
 
-Do some plots to look at patterns in the data (here are a few basic ones to get you started - you can copy this code or write your own):
+Here are a few basic plots to get you started - you can copy this code or write your own:
 
-_Note: you'll need to change the data source file name to match your own, and your results will be different than mine as a result._ 
+_Note: you'll need to change the data source file name to  "..._Master.csv", and your results will be different than mine as a result._ 
 
 ```{r data import, echo=TRUE, results='hide', include=FALSE}
 ################################################
