@@ -1,13 +1,13 @@
 Project 1 - Measuring reefs
 ================
 Elizabeth Madin
-2021-05-20
+2021-06-04
 
 ## Summary:
 
 This sub-module focuses on measuring and comparing coral patch reefs in
 the field and with satellite, aerial (airplane and drone) imagery of
-various spatial resolutions, as well as GPD tracking.
+various spatial resolutions, as well as GPS tracking.
 
 We’re using this exercize as a means to understand the general
 implications of satellite imagery spatial resolution on measuring
@@ -354,4 +354,4 @@ summary(res.reefID.lm)
         time, briefly relate this to any previous literature using a
         similar approach/asking similar questions)
   - This exercise will help you see the value of using R Markdown to
-    write papers\!
+    write papers\!\!\!

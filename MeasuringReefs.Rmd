@@ -17,7 +17,7 @@ library(plyr)
 
 ## Summary: 
 
-This sub-module focuses on measuring and comparing coral patch reefs in the field and with satellite, aerial (airplane and drone) imagery of various spatial resolutions, as well as GPD tracking. 
+This sub-module focuses on measuring and comparing coral patch reefs in the field and with satellite, aerial (airplane and drone) imagery of various spatial resolutions, as well as GPS tracking. 
 
 We're using this exercize as a means to understand the general implications of satellite imagery spatial resolution on measuring features of interest. However, it has real-world applications in terms of coral reef area measurement (e.g., [Madin and Madin (2015) Conservation Biology](https://drive.google.com/file/d/1C_vg4Uju5aTMWh7-Pf0ZhgrRtXSfSMNK/view) and https://allencoralatlas.org)). 
 
