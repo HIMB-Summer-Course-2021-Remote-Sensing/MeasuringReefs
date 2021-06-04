@@ -71,6 +71,10 @@ Measuring reefs:
 
 Data entry:
 
+  - Go to
+    <https://github.com/HIMB-Summer-Course-2021-Remote-Sensing/MeasuringReefs>
+    and click the green “Code” button -\> “Download ZIP”; save to your
+    machine
   - Open the .csv datasheet template (data/MeasuringReefs\_template.csv)
       - Do not add/delete columns since we will combine datasets later
       - Re-save file with your initials appended to the end of the
@@ -196,12 +200,15 @@ Measuring reefs:
 Once all data is collected:
 
   - Check your dataset for any typos, missing values, etc.
-  - Create a folder called “data” within whatever folder you’re using
-    for this and put your dataset in it
-  - Create a folder called “output” within whatever folder you’re using
-    for this (leave empty)
+
+  - Save your dataset in the “data” folder
+
+  - Open the .Rmd file
+
   - Create a new project-specific repository in Github
+
   - Link your Github repo with your project directory (folder)
+
   - Commit/push to the new project-specific repository you created in
     Github
 
