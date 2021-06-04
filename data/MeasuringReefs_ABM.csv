@@ -24,7 +24,7 @@ reef_no,replicate,perimeter_m,area_m2,imagery_resolution_m,date,method,platform,
 20,1,157,1961.505096,30,20190328,imagery,PlanetExplorer,satellite,USGS,Landsat 8,,
 20,2,230,4209.648245,30,20190328,imagery,PlanetExplorer,satellite,USGS,Landsat 8,,
 20,3,219,3816.615113,30,20190328,imagery,PlanetExplorer,satellite,USGS,Landsat 8,,
-22,1,117.66,1101.660617,NA,20210603,field,boat,NA,NA,transect tape,,(e.g.
+22,1,117.66,1101.660617,NA,20210603,field,boat,NA,NA,transect tape,,(e.g. 
 22,1,113.95,1033.281836,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
 22,2,112.97,1015.585271,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
 22,3,114.16,1037.093844,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
