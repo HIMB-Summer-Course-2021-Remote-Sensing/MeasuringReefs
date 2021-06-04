@@ -113,8 +113,7 @@ Measuring reefs:
           - use the formula =((C2/(2*PI()))^2)*PI() to calculate area
             from perimeter) in .csv (you’ll need to change cell C2 to
             whatever row it’s in)
-  - Do one replicate of each reef (replication will come from pooling
-    the group measurements)
+  - Do three replicates of each reef
   - You will use both Google Earth and Planet Explorer to measure reefs
     using imagery spanning a range of spatial resolutions
 
@@ -145,22 +144,26 @@ Measuring reefs:
     
       - Manually copy measurements into .csv
     
-      - Save measurement: name as “PR\#\# \_ \#.\#\# \_ \#\#” = PR\[reef
-        \#\] \_ \[resolution, in m\] \_ \[your initials\] (e.g.,
-        “PR20\_0.15\_EM”)
+      - Save measurement: name as “PR\#\#*\#.\#\#*\#\#*\#\#” = PR\[reef
+        \#\] * \[resolution, in m\] \_ \[your initials\] \_ \[replicate
+        number\] (e.g., “PR20\_0.15\_EM\_01”)
     
       - If any of your measurments show up in Temporary Places, drag
         saved measurements to the folder you created in My Places
     
       - Frequently save My Places\! (File -\> Save -\> Save My Places)
-    
-      - *Note*: if you need to go back to measurements, right-click on
-        outlines (or their corresponding saved names in My Places) -\>
-        Get Info
+        
+          - *Note*: if you need to go back to measurements, right-click
+            on outlines (or their corresponding saved names in My
+            Places) -\> Get Info
 
 2)  **Planet Explorer**
     
       - Draw a rectangular AOI (area of interest) to cover Kane’ohe Bay
+    
+      - *Note*: don’t use ‘shift’ to draw a freehand AOI (you wont see
+        imagery availablity if drawn by freehand, for some strange
+        reason)
     
       - Visually compare the Google Earth placemarks with the Planet
         Explorer AOI to locate your study reefs
@@ -187,6 +190,9 @@ Measuring reefs:
           - Area coverage = 90-100%
           - Source = tick sources corresponding to “satellite” above
           - *Tip*: do this satellite by satellite for faster searching
+    
+      - Use the lower left hand gear icon (settings) to change the units
+        from km to m
     
       - Use the “measure distance” tool to extract perimeter (hold shift
         for free hand measurement)
