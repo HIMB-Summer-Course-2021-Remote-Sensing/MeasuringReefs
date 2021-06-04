@@ -1,6 +1,6 @@
 ---
 title: "Project 1 - Measuring reefs"
-author: "Annie Innes-Gold"
+author: "Whitney Springer"
 date: "`r format(Sys.Date())`"
 output: 
   github_document
