@@ -145,8 +145,13 @@ Measuring reefs:
       - Manually copy measurements into .csv
     
       - Save measurement: name as “PR\#\#*\#.\#\#*\#\#*\#\#” = PR\[reef
+<<<<<<< HEAD
         \#\] * \[resolution, in m\] \_ \[your initials\] \_ \[replicate
         number\] (e.g., “PR20\_0.15\_EM\_01”)
+=======
+        \#\]*\[resolution, in m\]*\[your initials\]*\[replicate number\]
+        (e.g., “PR20\_0.15\_EM\_01”)
+>>>>>>> f8fdd5893b46a4861035b33c1a161c156eff5357
     
       - If any of your measurments show up in Temporary Places, drag
         saved measurements to the folder you created in My Places
