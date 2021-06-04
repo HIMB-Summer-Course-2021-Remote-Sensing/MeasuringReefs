@@ -122,11 +122,7 @@ Measuring reefs:
 
     + Use the polygon measurement tool to extract perimeter 
     + Manually copy measurements into .csv 
-<<<<<<< HEAD
     + Save measurement: name as “PR##_#.##_##_##” = PR[reef #] _ [resolution, in m] _ [your initials] _ [replicate number]  (e.g., “PR20_0.15_EM_01”)
-=======
-    + Save measurement: name as “PR##_#.##_##_##” = PR[reef #]_[resolution, in m]_[your initials]_[replicate number]  (e.g., “PR20_0.15_EM_01”)
->>>>>>> f8fdd5893b46a4861035b33c1a161c156eff5357
     + If any of your measurments show up in Temporary Places, drag saved measurements to the folder you created in My Places
     + Frequently save My Places! (File -> Save -> Save My Places)
     + _Note_: if you need to go back to measurements, right-click on outlines (or their corresponding saved names in My Places) -> Get Info 
