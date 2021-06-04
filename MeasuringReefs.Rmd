@@ -102,7 +102,7 @@ Measuring reefs:
 * You will measure two of the patch reefs in Kane’ohe Bay for:
     + Perimeter
         - use the formula =((C2/(2*PI()))^2)*PI() to calculate area from perimeter) in .csv (you'll need to change cell C2 to whatever row it's in)
-* Do one replicate of each reef (replication will come from pooling the group measurements)
+* Do three replicates of each reef 
 * You will use both Google Earth and Planet Explorer to measure reefs using imagery spanning a range of spatial resolutions
 
 1) **Google Earth**
@@ -122,7 +122,7 @@ Measuring reefs:
 
     + Use the polygon measurement tool to extract perimeter 
     + Manually copy measurements into .csv 
-    + Save measurement: name as “PR## _ #.## _ ##” = PR[reef #] _ [resolution, in m] _ [your initials] (e.g., “PR20_0.15_EM”)
+    + Save measurement: name as “PR##_#.##_##_##” = PR[reef #] _ [resolution, in m] _ [your initials] _ [replicate number]  (e.g., “PR20_0.15_EM_01”)
     + If any of your measurments show up in Temporary Places, drag saved measurements to the folder you created in My Places
     + Frequently save My Places! (File -> Save -> Save My Places)
     + _Note_: if you need to go back to measurements, right-click on outlines (or their corresponding saved names in My Places) -> Get Info 
