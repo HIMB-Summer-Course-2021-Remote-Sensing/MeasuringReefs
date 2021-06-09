@@ -1,7 +1,7 @@
 ---
 title: "Project 1 - Measuring reefs"
-author: "Whitney Springer"
-date: "`r format(Sys.Date())`"
+author: "Elizabeth Madin"
+date: "`r format(Sys.Date())`" 
 output: 
   github_document
 ---
@@ -161,6 +161,8 @@ Once all data is collected, merge datasets:
 
 * Check your dataset for any typos, missing values, etc.
 * Check that your dataset is saved in the "data" folder
+* IMPORTANT: rename "MeasuringReefs.template.csv" to "MeasuringReefs.YourInitials.csv"
+  * make sure you no longer have a file called "MeasuringReefs.template.csv"
 * In RStudio: stage -> commit -> pull -> push (goes to the Github repo you cloned)
 * Choose one person in the group to merge everyone's dataset in a new master .csv file (e.g., "MeasuringReefs_Master.csv")
 * Once finished, everyone can pull the repo to get the master data file

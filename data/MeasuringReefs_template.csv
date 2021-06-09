@@ -1,8 +1,8 @@
 reef_no,replicate,perimeter_m,area_m2,imagery_resolution_m,date,method,platform,imagery_type,provider,instrument,observer,notes
 20,1,,,NA,,field,boat,NA,NA,transect tape,,
-20,1,,,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
-20,2,,,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
-20,3,,,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
+20,1,,0,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
+20,2,,0,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
+20,3,,0,0.15,20130115,imagery,GE,aerial,unknown,unknown,,
 20,1,,,0.5,20130822,imagery,GE,satellite,DigitalGlobe,WorldView-1/2,,
 20,2,,,0.5,20130822,imagery,GE,satellite,DigitalGlobe,WorldView-1/2,,
 20,3,,,0.5,20130822,imagery,GE,satellite,DigitalGlobe,WorldView-1/2,,
