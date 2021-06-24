@@ -1,7 +1,7 @@
 Project 1 - Measuring reefs
 ================
 Elizabeth Madin
-2021-06-08
+2021-06-23
 
 ## Summary:
 
@@ -23,7 +23,8 @@ and <https://allencoralatlas.org>)).
     satellite; aerial) imagery to measure biological/habitat variables
   - Highlight strengths and limitations of each approach
   - Start thinking about ?s to ask/answer in your own research
-  - Provide coral reef field experience
+  - Gain coral reef field experience
+  - Practice using version control.
   - Contribute drone imagery to long-term reef monitoring dataset
 
 ## Components
@@ -42,8 +43,7 @@ and <https://allencoralatlas.org>)).
 ## Materials
 
   - transect tapes, weighted: 2 x 50m per group
-  - slates: 2
-  - metadata sheet (on underwater paper)
+  - slates laoded w/(blank) underwater sheet for metadata: 2
   - mesh bag(s) to carry everything
   - drone
   - drone batteries + charger
@@ -71,19 +71,23 @@ Measuring reefs:
 
 Data entry:
 
-  - Go to
-    <https://github.com/HIMB-Summer-Course-2021-Remote-Sensing/MeasuringReefs>
-    and click the green “Code” button -\> “Clone” -\> copy link
-  - Open RStudio -\> File -\> New Project -\> Version Control -\> paste
-    link
+  - Go to [the Github repository for this
+    sub-module](https://github.com/HIMB-Summer-Course-2021-Remote-Sensing/MeasuringReefs)
+    and click the green “Code” button -\> “Download ZIP” -\> save on
+    your machine
   - Open the .csv datasheet template (data/MeasuringReefs\_template.csv)
-      - Do not add/delete columns since we will combine datasets later
-      - Re-save file with your initials appended to the end of the
-        filename (e.g., “MeasuringReefs\_EPM.csv”)
+      - IMPORTANT: Do not add/delete columns since we will combine
+        datasets later
+      - rename “MeasuringReefs.template.csv” to
+        “MeasuringReefs\_YourInitials.csv” (e.g.,
+        “MeasuringReefs\_EPM.csv”)
+      - rename “MeasuringReefs.Rmd” to
+        “MeasuringReefs\_YourInitials.Rmd” (e.g.,
+        “MeasuringReefs\_EPM.Rmd”)
   - Choose one person from each group to enter the group’s field data
       - All others should delete the two rows (2 & 27) where column
         “method” = “field”
-      - For the group’s data enterer, enter field data into this
+      - The group’s data compiler (only) will enter field data into this
         datasheet
       - The column headings you’ll be filling in are:
           - perimeter\_m
@@ -209,16 +213,14 @@ Once all data is collected, merge datasets:
 
   - Check your dataset for any typos, missing values, etc.
   - Check that your dataset is saved in the “data” folder
-  - IMPORTANT: rename “MeasuringReefs.template.csv” to
-    “MeasuringReefs.YourInitials.csv”
-      - make sure you no longer have a file called
-        “MeasuringReefs.template.csv”
-  - In RStudio: stage -\> commit -\> pull -\> push (goes to the Github
-    repo you cloned)
-  - Choose one person in the group to merge everyone’s dataset in a new
-    master .csv file (e.g., “MeasuringReefs\_Master.csv”)
-  - Once finished, everyone can pull the repo to get the master data
-    file
+  - Drop your own dataset into the remote sensing module Slack channel
+  - The group data compiler will merge everyone’s dataset in a new
+    master .csv file (i.e.,, “MeasuringReefs\_Master.csv”), using their
+    own dataset (which contains the field data) as the starting point
+  - Once finished, the group data compiler should drop the master file
+    back into the Slack channel
+  - Download the master data file and save to your on machine (in the
+    “data” folder)
 
 Then analyze data:
 
